@@ -1,5 +1,9 @@
 package Java_Programs;
 
+/* Return type, method name and argument list same - Compile time error, more than one method with same name 
+   and argument list can not be defined in same class. */
+
+
 public class DemoMethod {
 
 	public int myMethod(int num1, int num2) {
