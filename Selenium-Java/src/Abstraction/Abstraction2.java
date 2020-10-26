@@ -3,10 +3,11 @@ package Abstraction;
 public class Abstraction2 {
 
 	public static void main(String[] args) {
-      Shape s = new Rectangle();
-      Shape s1 = new Circle();
+      Shape s;
+      s = new Rectangle();
       s.shape();
-      s1.shape();
+      s= new Circle();
+      s.shape();
       
 	}
 
